@@ -5,6 +5,9 @@ import HiddenSearchBarApp from "./projects/10-hidden-search-bar/HiddenSearchBarA
 import EsignatureApp from "./projects/01-signature-app/EsignatureApp";
 import RandomizeColors from "./projects/02-Randomize-colors/RandomizeColors";
 import PopupApp from "./projects/11-Mgic-popup/PopupApp";
+import ProgressBarsContainer from "./projects/12-progress-bar/ProgressBarContainer";
+import LikePhotoApp from "./projects/03-like-my-photo/LikePhotoApp";
+
 function App() {
   return (
     <div>
@@ -13,7 +16,9 @@ function App() {
       {/* <SlideToUnlock /> */}
       {/* <SliderApp /> */}
       {/* <HiddenSearchBarApp /> */}
-      <PopupApp />
+      {/* <PopupApp /> */}
+      {/* <ProgressBarsContainer /> */}
+      <LikePhotoApp />
     </div>
   );
 }
