@@ -7,6 +7,7 @@ import RandomizeColors from "./projects/02-Randomize-colors/RandomizeColors";
 import PopupApp from "./projects/11-Mgic-popup/PopupApp";
 import ProgressBarsContainer from "./projects/12-progress-bar/ProgressBarContainer";
 import LikePhotoApp from "./projects/03-like-my-photo/LikePhotoApp";
+import TestimonialsApp from "./projects/04-Testimonials-app/TestimonialsApp";
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
       {/* <HiddenSearchBarApp /> */}
       {/* <PopupApp /> */}
       {/* <ProgressBarsContainer /> */}
-      <LikePhotoApp />
+      {/* <LikePhotoApp /> */}
+      <TestimonialsApp />
     </div>
   );
 }
