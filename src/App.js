@@ -8,6 +8,7 @@ import PopupApp from "./projects/11-Mgic-popup/PopupApp";
 import ProgressBarsContainer from "./projects/12-progress-bar/ProgressBarContainer";
 import LikePhotoApp from "./projects/03-like-my-photo/LikePhotoApp";
 import TestimonialsApp from "./projects/04-Testimonials-app/TestimonialsApp";
+import AlertApp from "./projects/05-Alerts/AlertApp";
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
       {/* <PopupApp /> */}
       {/* <ProgressBarsContainer /> */}
       {/* <LikePhotoApp /> */}
-      <TestimonialsApp />
+      <AlertApp />
     </div>
   );
 }
