@@ -9,7 +9,7 @@ export default function TestimonialsApp() {
   //   const handleClick = () => {
   //     console.log("My Click");
   //   };
-  const [testimonials, setTestimonials] = useState();
+  const [testimonials, setTestimonials] = useState("");
   const [items, setItems] = useState();
 
   useEffect(() => {
@@ -20,7 +20,7 @@ export default function TestimonialsApp() {
 
   return (
     <div className="container m-auto">
-      <Title text="Testimonials App" />
+      <Title text={"Testimonials App"} />
       <Button
         text={"Posts"}
         btnClass="btn-info"
@@ -48,7 +48,14 @@ export default function TestimonialsApp() {
         : items.map((item) => {
             return (
               <div className="card card-primary mb-2" key={item.id}>
-                {item.name}
+                {item.name && <h2 className="card-header">{item.name}</h2>}
+                <div className="card-body">
+                  <h4>{item.title}</h4>
+                  <p>{item.body}</p>
+                </div>
+                {item.email && (
+                  <small className="card-footer">{item.email}</small>
+                )}
               </div>
             );
           })}
